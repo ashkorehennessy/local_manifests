@@ -1,0 +1,1 @@
+# local manifests for dipper
