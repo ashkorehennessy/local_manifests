@@ -10,6 +10,8 @@
 
   <!-- hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-20"/>
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" revision="lineage-20.0"/>
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" revision="lineage-20.0"/>
 
   <!-- device -->
   <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper" remote="ashkorehennessy"/>
