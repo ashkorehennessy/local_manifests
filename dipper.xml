@@ -8,6 +8,9 @@
            fetch="https://github.com/TheMuppets/"
            revision="lineage-20" />
 
+  <!-- hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-20"/>
+
   <!-- device -->
   <project path="device/xiaomi/dipper" name="android_device_xiaomi_dipper" remote="ashkorehennessy"/>
   <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="ashkorehennessy"/>
