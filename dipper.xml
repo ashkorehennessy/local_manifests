@@ -8,6 +8,9 @@
            fetch="https://github.com/TheMuppets/"
            revision="lineage-20" />
 
+  <!-- tinyxml -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+
   <!-- hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-20"/>
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" revision="lineage-20.0"/>
