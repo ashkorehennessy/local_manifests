@@ -8,6 +8,10 @@
            fetch="https://github.com/TheMuppets/"
            revision="lineage-20" />
 
+  <!-- lineage libcxx -->
+  <remove-project name="platform/external/libcxx" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="lineage" revision="lineage-20.0"/>
+
   <!-- tinyxml -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
