@@ -12,6 +12,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="MindTheGapps"
+           fetch="https://gitlab.com/MindTheGapps/" />
+
   <remote  name="ashkorehennessy"
            fetch="https://github.com/ashkorehennessy/"
            revision="lineage-20" />
@@ -19,6 +22,9 @@
   <remote  name="themuppets"
            fetch="https://github.com/TheMuppets/"
            revision="lineage-20" />
+
+  <!-- MindTheGapps -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="MindTheGapps" revision="tau" />
 
   <!-- PixelExperience FaceUnlock -->
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
