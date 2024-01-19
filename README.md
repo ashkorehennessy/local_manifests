@@ -1,4 +1,10 @@
-# local manifests for dipper
+# local manifests
+
+dipper's local manifest for building exTHmUI
+
+and add some extra stuff
+
+---
 
 clone this repo into your local manifests directory, and then run repo sync
 
