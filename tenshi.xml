@@ -38,6 +38,9 @@
   <remove-project name="android_vendor_exthm" />
   <project path="vendor/exthm" name="ashkorehennessy/android_vendor_exthm" remote="github" revision="Tenshi" />
 
+  <remove-project name="android_device_exthm_sepolicy" />
+  <project path="device/exthm/sepolicy/" name="ashkorehennessy/android_device_exthm_sepolicy" remote="github" revision="Tenshi" />
+
   <!-- lineage libcxx -->
   <remove-project name="platform/external/libcxx" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" revision="lineage-20.0"/>
